@@ -12,7 +12,7 @@ body{
 .card {
     width: calc(33.33% - 10px); /* Initially, each card takes up 33.33% of the container width */
     margin-bottom: 20px; /* Margin between cards */
-    margin-top: auto;
+    margin-top: 10px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     padding: 20px;
