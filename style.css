@@ -1,0 +1,42 @@
+.navbar-brand{color:blue; text-size-adjust: 2rem;}
+body{
+    background-color: rgb(207, 252, 252);
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* To evenly space the cards */
+}
+
+.card {
+    width: calc(33.33% - 10px); /* Initially, each card takes up 33.33% of the container width */
+    margin-bottom: 20px; /* Margin between cards */
+    margin-top: auto;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Media queries for different screen sizes */
+
+/* For phones and small screens */
+@media (max-width: 767px) {
+    .card {
+        width: 100%; /* Cards take up 100% of the container width for small screens */
+    }
+}
+
+/* For tablets and medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card {
+        width: calc(50% - 10px); /* Cards take up 50% of the container width for medium screens */
+    }
+}
+
+/* For laptops and larger screens */
+@media (min-width: 1024px) {
+    .card {
+        width: calc(33.33% - 10px); /* Cards return to 33.33% width for larger screens */
+    }
+}
