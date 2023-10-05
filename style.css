@@ -1,7 +1,8 @@
-.navbar-brand{color:blue; text-size-adjust: 2rem;font-weight: bold;}
+.navbar-brand{color:blue; text-size-adjust: 2rem;font-weight: bolder;}
 
 body{
     background-color: rgb(207, 252, 252);
+    font-family: 'Times New Roman', Times, serif;
 }
 .card-container {
     display: flex;
@@ -17,6 +18,10 @@ body{
     border: 1px solid #ffffff;
     padding: 20px;
     box-sizing: border-box;
+}
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 /* Media queries for different screen sizes */
