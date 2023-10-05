@@ -1,8 +1,13 @@
-.navbar-brand{color:blue; text-size-adjust: 2rem;font-weight: bolder;}
+.navbar-brand{
+    color:rgb(1, 1, 68); 
+    text-size-adjust: 2rem;
+    font-weight: bolder;
+    @import url(https://fonts.googleapis.com/css?family=Teko:300,regular,500,600,700);
+}
 
 body{
     background-color: rgb(207, 252, 252);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 .card-container {
     display: flex;
@@ -20,8 +25,11 @@ body{
     box-sizing: border-box;
 }
 .card-title {
-    font-family: 'Times New Roman', Times, serif;
+    @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
     font-weight: bolder;
+}
+.card-text{
+    @import url(https://fonts.googleapis.com/css?family=Young+Serif:regular);
 }
 
 /* Media queries for different screen sizes */
